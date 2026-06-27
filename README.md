@@ -44,7 +44,7 @@ When it prints `Your sovereign agent contract address: 0x…`, you are deployed.
 
 Slots are matched from on-chain deploy data on a weekly sync, so give it a day or two. Then in the [Ritual Discord](https://discord.gg/ritual-net):
 
-1. Run `/genesis_claim`.
+1. Go to the **!rank** channel and run `/genesis_claim` (it only works in that channel).
 2. If you made the cut you will have the **Genesis 1000** role and be asked to describe your agent in one line.
 3. Your numbered card generates instantly — share it on X.
 
