@@ -13,6 +13,17 @@ Be one of the **first 1,000 wallets** to deploy a sovereign agent on Ritual test
 
 ---
 
+## What your computer needs
+
+**No-hassle way (recommended — works on any device, even a phone):** nothing to install. [GitHub Codespaces](https://codespaces.new/toteonsol/ritualaccess) gives you a ready-made Linux terminal in your browser with `git`, `bash`, and the toolchain available. You only need a free GitHub account. This is the smoothest path, especially on Windows.
+
+**Prefer to run it locally? Install Git first:**
+- **Mac:** run `xcode-select --install` in Terminal (one time). The deploy script auto-installs the rest (Foundry + uv).
+- **Windows:** install [Git for Windows](https://git-scm.com/download/win) — it includes **Git Bash**. Run everything in **Git Bash**, *not* PowerShell (PowerShell has no `git`/`bash` and says "not recognized"). If the toolchain misbehaves, switch to Codespaces.
+- **Linux:** install Git (`sudo apt install git`, or your distro's equivalent). The script auto-installs the rest.
+
+You also need a **wallet + a little testnet RITUAL** either way (see below).
+
 ## Quick start
 
 **Phone (no PC):** click the **Open in Codespaces** button above, wait for the terminal, then run:
@@ -21,7 +32,7 @@ Be one of the **first 1,000 wallets** to deploy a sovereign agent on Ritual test
 bash run.sh
 ```
 
-**PC / Mac:**
+**Mac / Linux (or Windows "Git Bash"):**
 
 ```bash
 git clone https://github.com/toteonsol/ritualaccess
@@ -30,6 +41,8 @@ bash run.sh
 ```
 
 That single command deploys your agent contract, funds it, and arms it. It auto-installs what it needs (Foundry + uv).
+
+> **Windows:** run these in **Git Bash**, not PowerShell — see [What your computer needs](#what-your-computer-needs) above. Or skip it entirely with Codespaces.
 
 ## Before you run it
 
